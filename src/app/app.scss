@@ -14,3 +14,35 @@ a.-st-active {
 .material-symbols-outlined {
   font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
 }
+
+.web-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.web-title svg {
+  width: 30%;
+}
+
+.layout {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  place-items: center;
+}
+
+.layout nav {
+  margin-bottom: 20px;
+}
+.router-container {
+  display: grid;
+  place-items: center;
+}
+
+.nav-center a {
+  display: inline-flex; // สำคัญที่สุด
+  align-items: center; // ให้อยู่กึ่งกลางแนวตั้ง
+  gap: 0.4rem; // ระยะห่าง icon กับข้อความ
+  text-decoration: none;
+}
