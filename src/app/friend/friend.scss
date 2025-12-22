@@ -11,3 +11,24 @@ button {
   margin-right: 10px;
   padding: 5px;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: #e0e0e0; /* เปลี่ยนสีได้ตามใจ */
+}
